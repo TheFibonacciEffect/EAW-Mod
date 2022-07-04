@@ -334,6 +334,28 @@
 
 	</Container>
 
+	<Container Name="501_Team">
+		<!-- since I changed the container, they do not have any abilities any more -->
+		<Text_ID>TEXT_501_LEGION</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_501_LEGION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability  -->
+				<Unit_Ability>
+					<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
+				</Unit_Ability>
+				<Unit_Ability>
+					<Type>SPRINT</Type>
+					<Expiration_Seconds> 10.0 </Expiration_Seconds>
+					<Recharge_Seconds> 30.0 </Recharge_Seconds>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				</Unit_Ability>
+			</Unit_Abilities_Data>
+	</Container>
+
 	<Container Name="Empire_Field_Commander_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>

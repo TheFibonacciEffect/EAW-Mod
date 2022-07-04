@@ -397,7 +397,92 @@
 	<!--			         -->
 	<!-- Empire Major Heroes -->
 	<!--			         -->
-	
+	<HeroCompany Name="501_Legion">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_501_LEGION</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_501_LEGION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>36</Damage>
+		<Autoresolve_Health>300</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> 501_Team </Create_Team_Type>
+        <!-- AI  Changed to 18 troopers in squads of 9 -->
+		<Company_Units> 
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
+		</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
+		<Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability  -->
+				<Unit_Ability>
+					<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
+				</Unit_Ability>
+				<Unit_Ability>
+					<Type>SPRINT</Type>
+					<Expiration_Seconds> 10.0 </Expiration_Seconds>
+					<Recharge_Seconds> 30.0 </Recharge_Seconds>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				</Unit_Ability>
+			</Unit_Abilities_Data>
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</HeroCompany>
 	
 	<HeroCompany Name="Boba_Fett_Team">
 		<Text_ID>TEXT_HERO_BOBA_FETT_TEAM</Text_ID>
@@ -1324,4 +1409,3 @@
 
 
 </HeroCompanies>
-

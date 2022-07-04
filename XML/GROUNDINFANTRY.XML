@@ -1904,6 +1904,31 @@
 		<Create_Team>Yes</Create_Team>
 	</GroundInfantry>
 
+	<GroundInfantry Name="Squad_Stormtrooper_501">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_501_LEGION</Text_ID>
+		<Tactical_Health>70</Tactical_Health>
+		<Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
+		<Score_Cost_Credits> 250 </Score_Cost_Credits>
+		<Create_Team>Yes</Create_Team>
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability  -->
+				<Unit_Ability>
+					<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
+				</Unit_Ability>
+				<Unit_Ability>
+					<Type>SPRINT</Type>
+					<Expiration_Seconds> 10.0 </Expiration_Seconds>
+					<Recharge_Seconds> 30.0 </Recharge_Seconds>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				</Unit_Ability>
+			</Unit_Abilities_Data>
+	</GroundInfantry>
+
 	<GroundInfantry Name="R_Field_Commander_Guard">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_COMMANDER_GUARD_R</Text_ID>
