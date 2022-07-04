@@ -1,3 +1,5 @@
+In the startup options for steam use the following swfoc MODPATH=Mods\Caspar
+
 For adding units do the following:
     1. Download the XML Files from https://www.gamemaps.com/foc/tools
     2. Add your unit to the XML Files
