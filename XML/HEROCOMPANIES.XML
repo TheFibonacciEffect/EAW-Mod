@@ -441,9 +441,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade,</Tactical_Build_Prerequisites>
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>    
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
