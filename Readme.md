@@ -1,5 +1,8 @@
 In the startup options for steam use the following `swfoc MODPATH=Mods\Caspar`
 
+
+# How to add a simple unit in Empire at War using XML
+Place all your stuff into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
 For adding units do the following:
    1. Download the XML Files from https://www.gamemaps.com/foc/tools
    2. Add your unit to the XML Files
@@ -11,6 +14,11 @@ For adding units do the following:
        1. Get the textures from the base game using the Eaw_file_Extractor https://www.moddb.com/downloads/eaw-file-extractor
        2. Use the file "C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Data\textures.meg" for force of curruption
        3. Obtain an .tga file for the icon
+          1. Use GIMP
+          2. Get some Picture from the internet (make sure you have the rights to use it)
+          3. (Put a vigniette on the image, use `Filters → Light and Shadow → Vignette` and use transparent color)
+          4. Scale it to 50x50 pixels, use `Image>Scale Image`
+          5. Save as .tga
        4. Uing the MED Editor open the MT_COMMANDBAR.MTD file in C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Source\Data\ART\TEXTURES
        5. There open MT_COMMANDBAR.TGA.
        6. Add the image you want to use
