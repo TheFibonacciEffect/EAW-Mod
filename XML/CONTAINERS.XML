@@ -348,10 +348,11 @@
 				</Unit_Ability>
 				<Unit_Ability>
 					<Type>SPRINT</Type>
-					<Expiration_Seconds> 10.0 </Expiration_Seconds>
-					<Recharge_Seconds> 30.0 </Recharge_Seconds>
+					<Expiration_Seconds> 4.0 </Expiration_Seconds>
+					<Recharge_Seconds> 10.0 </Recharge_Seconds>
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
-					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
 				</Unit_Ability>
 			</Unit_Abilities_Data>
 	</Container>

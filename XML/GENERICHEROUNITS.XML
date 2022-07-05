@@ -638,6 +638,7 @@
 	   </Abilities>
     </GenericHeroUnit>
 
+	<!-- maybe good base for 501 -->
 	<GenericHeroUnit Name="Generic_Field_Commander_Empire">
 		<No_Colorization_Color>33, 33, 33, 255</No_Colorization_Color>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
