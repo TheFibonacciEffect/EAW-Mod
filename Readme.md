@@ -8,6 +8,7 @@ For adding units do the following:
    2. Add your unit to the XML Files
       1. For example C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Source\Data\XML\UNIQUEUNITS.XML
       2. if it is a hero, set the techlevel to 6 or higher
+      3. If you changed the abilities, you may need to change the `<LandBehavior>` tag and add `ABILITY_COUNTDOWN` for example
    3. Add Text and descriptions using the dat Editor http://www.petrolution.net/item-172
        1. Use the file located in "C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Source\Data\Text\mastertextfile_english.dat"
    4. Add the image for the unit
