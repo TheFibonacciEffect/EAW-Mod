@@ -408,8 +408,8 @@
 		<Text_ID>TEXT_501_LEGION</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_501_LEGION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Damage>36</Damage>
-		<Autoresolve_Health>300</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+		<Damage>100</Damage>
+		<Autoresolve_Health>800</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
 		<Build_Cost_Credits>60</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
