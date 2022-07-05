@@ -1881,7 +1881,11 @@
 
 	</GroundInfantry>
 
-
+<GroundInfantry Name="Imperial_Guard_Palpatine">
+	<Variant_Of_Existing_Type>Imperial_Guard_Non_AI</Variant_Of_Existing_Type>
+	<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
+	<Tactical_Health>60</Tactical_Health>
+</GroundInfantry>
 
 <!-- Used for guarding field commanders in team -->
 
@@ -1919,7 +1923,10 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		
+		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<Score_Cost_Credits> 250 </Score_Cost_Credits>
 		<Create_Team>Yes</Create_Team>
@@ -1936,7 +1943,7 @@
 					<Expiration_Seconds> 4.0 </Expiration_Seconds>
 					<Recharge_Seconds> 10.0 </Recharge_Seconds>
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
-					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 2.0f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 1.5f</Mod_Multiplier>
 					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
 				</Unit_Ability>
 			</Unit_Abilities_Data>
