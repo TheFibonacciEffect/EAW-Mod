@@ -398,6 +398,9 @@
 	<!-- Empire Major Heroes -->
 	<!--			         -->
 	<HeroCompany Name="501_Legion">
+		<!-- There is no hero icon in the corner -->
+		<!-- the shield doesnt work -->
+		<!-- the sprint has no cooldown -->
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
 		
 		<Text_ID>TEXT_501_LEGION</Text_ID>
@@ -428,13 +431,15 @@
 			Squad_Stormtrooper_501, Squad_Stormtrooper_501, Squad_Stormtrooper_501,
 		</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Icon_Name>i_button_501.tga</Icon_Name>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade,</Tactical_Build_Prerequisites>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -448,16 +453,19 @@
 					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
 				</Unit_Ability>
 			<!-- secondary ability -->
-			<!-- Sprint abiltity expiration does not jet work. All changes also need to ba made at the 501_Team and Squad_Stormtrooper_501 -->
+			<!-- Sprint abiltity expiration does not yet work. All changes also need to ba made at the 501_Team and Squad_Stormtrooper_501 -->
 				<Unit_Ability>
 					<Type>SPRINT</Type>
 					<Expiration_Seconds> 4.0 </Expiration_Seconds>
 					<Recharge_Seconds> 10.0 </Recharge_Seconds>
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
-					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 2.0f</Mod_Multiplier>
 					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
 				</Unit_Ability>
 			</Unit_Abilities_Data>
+			<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+			<CategoryMask> LandHero </CategoryMask>
+
 	</HeroCompany>
 	
 	<HeroCompany Name="Boba_Fett_Team">
@@ -860,7 +868,8 @@
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Emperor_Palpatine</Company_Units>
+		<!-- this is not tested yet -->
+		<Company_Units>Emperor_Palpatine,Imperial_Guard_Non_AI,Imperial_Guard_Non_AI</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
