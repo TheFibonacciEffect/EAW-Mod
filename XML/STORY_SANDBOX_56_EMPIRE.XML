@@ -72,6 +72,14 @@
 		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 
+	<Event Name="Spawn_501">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>501_Legion</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
 
 	<!-- Spawn Time Era 2 Heroes -->
 

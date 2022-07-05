@@ -1881,7 +1881,11 @@
 
 	</GroundInfantry>
 
-
+<GroundInfantry Name="Imperial_Guard_Palpatine">
+	<Variant_Of_Existing_Type>Imperial_Guard_Non_AI</Variant_Of_Existing_Type>
+	<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
+	<Tactical_Health>60</Tactical_Health>
+</GroundInfantry>
 
 <!-- Used for guarding field commanders in team -->
 
@@ -1902,6 +1906,54 @@
 		<Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
 		<Score_Cost_Credits> 250 </Score_Cost_Credits>
 		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Squad_Stormtrooper_501">
+		<Variant_Of_Existing_Type>Squad_Stormtrooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_501_LEGION</Text_ID>
+		<Tactical_Health>70</Tactical_Health>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		<!-- values in Tactical -->
+		<!-- TODO Shield doesn't work -->
+		<Projectile_Fire_Recharge_Seconds>0.3</Projectile_Fire_Recharge_Seconds> <!-- Originaly 0.6-->
+		<Size_Value>10</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+		
+		<Is_Squashable> No </Is_Squashable>
+		
+		<Score_Cost_Credits> 250 </Score_Cost_Credits>
+		<Create_Team>Yes</Create_Team>
+		<!-- 501Abilities Version 2 -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- they also need to change in XML\GROUNDINFANTRY.XML and XML\CONTAINERS.XML -->
+			<!-- Primary ability  -->
+				<Unit_Ability>
+					<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
+				</Unit_Ability>
+			<!-- secondary ability -->
+			<!-- Sprint abiltity expiration does not yet work. All changes also need to ba made at the 501_Team and Squad_Stormtrooper_501 -->
+				<Unit_Ability>
+					<Type>SPRINT</Type>
+					<Expiration_Seconds> 4.0 </Expiration_Seconds>
+					<Recharge_Seconds> 10.0 </Recharge_Seconds>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
+				</Unit_Ability>
+		</Unit_Abilities_Data>
+		<!-- 501Abilities end -->
 	</GroundInfantry>
 
 	<GroundInfantry Name="R_Field_Commander_Guard">

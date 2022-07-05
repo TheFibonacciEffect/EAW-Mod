@@ -334,6 +334,41 @@
 
 	</Container>
 
+	<Container Name="501_Team">
+		<!-- TODO They are grouped together with stormtroopers, this needs to be changed -->
+		<Icon_Name>i_button_501.tga</Icon_Name>
+		<Text_ID>TEXT_501_LEGION</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_501_LEGION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
+
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<FormationOrder> 2 </FormationOrder>
+		<OccupationStyle>1x1</OccupationStyle> <!-- maybe you can change the shape of the formation here-->
+		
+		<!-- 501Abilities Version 2 -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- they also need to change in XML\GROUNDINFANTRY.XML and XML\CONTAINERS.XML -->
+			<!-- Primary ability  -->
+				<Unit_Ability>
+					<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
+				</Unit_Ability>
+			<!-- secondary ability -->
+			<!-- Sprint abiltity expiration does not yet work. All changes also need to ba made at the 501_Team and Squad_Stormtrooper_501 -->
+				<Unit_Ability>
+					<Type>SPRINT</Type>
+					<Expiration_Seconds> 4.0 </Expiration_Seconds>
+					<Recharge_Seconds> 10.0 </Recharge_Seconds>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
+				</Unit_Ability>
+		</Unit_Abilities_Data>
+		<!-- 501Abilities end -->
+
+	</Container>
+
 	<Container Name="Empire_Field_Commander_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
