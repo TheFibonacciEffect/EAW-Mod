@@ -398,9 +398,11 @@
 	<!-- Empire Major Heroes -->
 	<!--			         -->
 	<HeroCompany Name="501_Legion">
+		<!-- TODO -->
 		<!-- There is no hero icon in the corner -->
 		<!-- the shield doesnt work -->
 		<!-- the sprint has no cooldown -->
+		<!-- Maybe make them give a buff to other stormtroopers? -->
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
 		
 		<Text_ID>TEXT_501_LEGION</Text_ID>
@@ -868,7 +870,7 @@
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<!-- this is not tested yet -->
+		<!-- TODO they do appear, but they are grouped together and dont have the right icon -->
 		<Company_Units>Emperor_Palpatine,Imperial_Guard_Non_AI,Imperial_Guard_Non_AI</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
