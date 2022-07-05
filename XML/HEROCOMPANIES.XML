@@ -469,7 +469,7 @@
 		<!-- 501Abilities end -->
 		
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> LandHero | Infantry </CategoryMask>
 
 	</HeroCompany>
 	

@@ -1928,6 +1928,8 @@
 		<Targeting_Fire_Inaccuracy> Air, 2.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 		
+		<Is_Squashable> No </Is_Squashable>
+		
 		<Score_Cost_Credits> 250 </Score_Cost_Credits>
 		<Create_Team>Yes</Create_Team>
 		<!-- 501Abilities Version 1 -->
