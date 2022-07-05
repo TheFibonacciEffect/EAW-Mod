@@ -868,8 +868,11 @@
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<!-- TODO they do appear, but they are grouped together and dont have the right icon -->
-		<Company_Units>Emperor_Palpatine,Imperial_Guard_Non_AI,Imperial_Guard_Non_AI</Company_Units>
+		<!-- TODO they do appear, but dont have the right icon -->
+		<Company_Units>Emperor_Palpatine,Imperial_Guard_Palpatine,Imperial_Guard_Palpatine</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<!-- maybe the squad size fixes it? -->
+
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
