@@ -1930,23 +1930,27 @@
 		
 		<Score_Cost_Credits> 250 </Score_Cost_Credits>
 		<Create_Team>Yes</Create_Team>
-		<!-- Non-Hero unit abilities description -->
+		<!-- 501Abilities -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- they also need to change in XML\GROUNDINFANTRY.XML and XML\CONTAINERS.XML -->
 			<!-- Primary ability  -->
 				<Unit_Ability>
 					<Type>SPREAD_OUT</Type>
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.4f</Mod_Multiplier>
 				</Unit_Ability>
+			<!-- secondary ability -->
+			<!-- Sprint abiltity expiration does not yet work. All changes also need to ba made at the 501_Team and Squad_Stormtrooper_501 -->
 				<Unit_Ability>
 					<Type>SPRINT</Type>
 					<Expiration_Seconds> 4.0 </Expiration_Seconds>
 					<Recharge_Seconds> 10.0 </Recharge_Seconds>
-					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
 					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 1.5f</Mod_Multiplier>
+					<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	0.5f</Mod_Multiplier>
 					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
 				</Unit_Ability>
-			</Unit_Abilities_Data>
+		</Unit_Abilities_Data>
 	</GroundInfantry>
 
 	<GroundInfantry Name="R_Field_Commander_Guard">
