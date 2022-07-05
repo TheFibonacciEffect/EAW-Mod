@@ -444,7 +444,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>    
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- 501Abilities -->
+		<!-- 501Abilities Version 1 -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- they also need to change in XML\GROUNDINFANTRY.XML and XML\CONTAINERS.XML -->
 			<!-- Primary ability  -->
@@ -461,10 +461,12 @@
 					<Recharge_Seconds> 10.0 </Recharge_Seconds>
 					<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
 					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 1.5f</Mod_Multiplier>
+					<!-- this is not yet tested, I don't know if it works -->
 					<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	0.5f</Mod_Multiplier>
 					<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated> -->
 				</Unit_Ability>
 		</Unit_Abilities_Data>
+		<!-- 501Abilities end -->
 		
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<CategoryMask> LandHero </CategoryMask>
