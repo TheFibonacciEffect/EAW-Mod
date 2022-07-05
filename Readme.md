@@ -28,6 +28,6 @@ For adding units do the following:
           2. For example search for `<Campaign Name="Sandbox_Equal_Footing_Empire">`
           3. Find the Empire_Story_Name tag
           4. Open the corresponding file, for example STORY_SANDBOX_56_EMPIRE.XML
-          5. Add the entry under <!-- Spawn Tech Level 1 Heroes -->
+          5. Add the entry under `<!-- Spawn Tech Level 1 Heroes -->`
    6. You're done, have fun!
        
