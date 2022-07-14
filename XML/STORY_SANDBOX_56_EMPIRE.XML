@@ -118,7 +118,7 @@
 	<Event Name="Spawn_Eli">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
-		<Reward_Param1>Eil_Vanto_Team</Reward_Param1>
+		<Reward_Param1>Eli_Vanto_Team</Reward_Param1>
 		<Reward_Param2>Dantooine</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_03</Prereq>
 	</Event>

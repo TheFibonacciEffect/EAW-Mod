@@ -809,6 +809,7 @@
 	
 	<HeroCompany Name="Eli_Vanto_Team">
 		<Text_ID>TEXT_HERO_ELI_VANTO</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ELI_VANTO TEXT_TOOLTIP_ELI_VANTO_ABILITIES</Encyclopedia_Text>
 		<Icon_Name>i_button_Eli_Vanto.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -825,8 +826,7 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Eli_Vanto</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ELI_VANTO</Encyclopedia_Text>
+		<Is_Named_Hero>Yes</Is_Named_Hero>		
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 	
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
