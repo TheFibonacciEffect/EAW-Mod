@@ -882,7 +882,7 @@
 	</HeroUnit>
 
 	
-	<HeroUnit Name="Eil_Vanto">
+	<HeroUnit Name="Eli_Vanto">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ELI_VANTO</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_ELI_VANTO </Encyclopedia_Text>
