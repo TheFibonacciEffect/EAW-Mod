@@ -1,5 +1,19 @@
 In the startup options for steam use the following `swfoc MODPATH=Mods\Caspar`
 
+# Units Added
+- Reprisal Star Destroyer
+  - Star Destroyer of Admiral Ozzel
+- 501 Legion
+  - Has doubble the firerate of ordinary stormtroopers and the ability to sprint
+- Eli Vanto
+  - Aid of Leutanant Thrawn
+  - Redruces Price of Tartan Patrol Cruisers
+  - Gives a slight movement speed bonus in combat
+  - Reduces Production Time for Vehicles by half
+  - Reduces Production time for Tartan Patrol Cruisers by 75%
+- Emperor Palpetine
+  - Emperor Palpetine now comes with two imperial Guards
+
 
 # How to add a simple unit in Empire at War using XML
 Place all your stuff into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
@@ -41,16 +55,3 @@ For adding units do the following:
           4. Open the corresponding file, for example STORY_SANDBOX_56_EMPIRE.XML
           5. Add the entry under `<!-- Spawn Tech Level 1 Heroes -->`
    8. You're done, have fun!
-
-# Units Added
-- Reprisal Star Destroyer
-  - Star Destroyer of Admiral Ozzel
-- 501 Legion
-  - Has doubble the firerate of ordinary stormtroopers and the ability to sprint
-- Eli Vanto
-  - Redruces Price of Tartan Patrol Cruisers
-  - Gives a slight movement speed bonus in combat
-  - Reduces Production Time for Vehicles by half
-  - Reduces Production time for Tartan Patrol Cruisers by 75%
-- Emperor Palpetine
-  - Emperor Palpetine now comes with two imperial Guards
