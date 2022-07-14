@@ -1885,6 +1885,7 @@
 	<Variant_Of_Existing_Type>Imperial_Guard_Non_AI</Variant_Of_Existing_Type>
 	<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 	<Tactical_Health>60</Tactical_Health>
+	<Damage>40</Damage>
 </GroundInfantry>
 
 <!-- Used for guarding field commanders in team -->
