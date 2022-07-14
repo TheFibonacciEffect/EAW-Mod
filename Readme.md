@@ -53,4 +53,4 @@ For adding units do the following:
   - Reduces Production Time for Vehicles by half
   - Reduces Production time for Tartan Patrol Cruisers by 75%
 - Emperor Palpetine
-  - Emporer Palpetine now comes with two imperial Guards
+  - Emperor Palpetine now comes with two imperial Guards
