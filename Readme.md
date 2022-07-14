@@ -1,5 +1,20 @@
 This is a mod for the game Star Wars Empire at War - Force of Corruption
 
+
+# Units Added
+- Reprisal Star Destroyer
+  - Star Destroyer of Admiral Ozzel
+- 501 Legion
+  - Has doubble the firerate of ordinary stormtroopers and the ability to sprint
+- Eli Vanto
+  - Aid of Leutanant Thrawn
+  - Redruces Price of Tartan Patrol Cruisers
+  - Gives a slight movement speed bonus in combat
+  - Reduces Production Time for Vehicles by half
+  - Reduces Production time for Tartan Patrol Cruisers by 75%
+- Emperor Palpetine
+  - Emperor Palpetine now comes with two imperial Guards
+
 # Installation
 - Clone/download the repository.
 - Create a new directory inside your Steam copy of FoC's "Mods" folder (e.g.: "\corruption\Mods\UFoCP1.0")
