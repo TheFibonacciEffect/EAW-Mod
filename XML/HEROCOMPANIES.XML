@@ -908,6 +908,7 @@
 		<!-- TODO they do appear, but dont have the right icon -->
 		<Company_Units>Emperor_Palpatine,Imperial_Guard_Palpatine,Imperial_Guard_Palpatine</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Is_Homogeneous>No</Is_Homogeneous>
 		<!-- maybe the squad size fixes it? -->
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
