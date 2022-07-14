@@ -1,4 +1,4 @@
-This is a mod for the game Star Wars Empire at War - Force of Curruption
+This is a mod for the game Star Wars Empire at War - Force of Corruption
 
 You install it by placing it into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
 
