@@ -2,7 +2,7 @@ This is a mod for the game Star Wars Empire at War - Force of Curruption
 
 You install it by placing it into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
 
-In the startup options for steam use the following `swfoc MODPATH=Mods\Caspar`
+In the startup options for steam use the following `swfoc MODPATH=Mods\Caspar` to activate the mod on startup
 
 
 # How to add a simple unit in Empire at War using XML
