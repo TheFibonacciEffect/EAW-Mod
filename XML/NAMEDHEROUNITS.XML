@@ -885,7 +885,7 @@
 	<HeroUnit Name="Eli_Vanto">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_ELI_VANTO</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_ELI_VANTO </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ELI_VANTO TEXT_TOOLTIP_ELI_VANTO_ABILITIES </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_Eli_Vanto.tga</Icon_Name>
@@ -962,7 +962,7 @@
 				<Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types>DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company</Excluded_Unit_Types>
-				<Time_Reduction_Percentage>0.5</Time_Reduction_Percentage>
+				<Time_Reduction_Percentage>0.4</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- <Galaxy_Wide> Yes </Galaxy_Wide> -->
 			</Reduce_Production_Time_Ability>
@@ -972,7 +972,7 @@
 				<Applicable_Unit_Types>Tartan_Patrol_Cruiser</Applicable_Unit_Types>
 				<!-- <Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories> -->
 				<!-- <Excluded_Unit_Types>DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company</Excluded_Unit_Types> -->
-				<Time_Reduction_Percentage>0.75</Time_Reduction_Percentage>
+				<Time_Reduction_Percentage>0.6</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- <Galaxy_Wide> Yes </Galaxy_Wide> -->
 			</Reduce_Production_Time_Ability>
