@@ -76,10 +76,10 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>501_Legion</Reward_Param1>
+		<Reward_Param3>3</Reward_Param3> <!-- Spawns it 3 Times -->
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
-
 
 	<!-- Spawn Time Era 2 Heroes -->
 
@@ -114,6 +114,14 @@
 		<Prereq>Empire_Enters_Tech_03</Prereq>
 	</Event>
 
+
+	<Event Name="Spawn_Eli">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Eil_Vanto_Team</Reward_Param1>
+		<Reward_Param2>Dantooine</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 
 
 	<!-- Spawn Time Era 4 Heroes -->
