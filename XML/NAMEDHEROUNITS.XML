@@ -933,10 +933,18 @@
 			<Reduce_Production_Price_Ability Name="Eli_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Tartan_Patrol_Cruiser</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Acclamator_Assault_Ship | Victory_Destroyer</Applicable_Unit_Types>
 				<Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories>
 				<!-- <Applicable_Unit_Types>Tartan_Patrol_Cruiser | Vehicle</Applicable_Unit_Types> -->
-				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<!-- they cost more, but produce much faster -->
+				<Excluded_Unit_Types>
+					DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company
+					Imperial_Anti_Infantry_Brigade,
+					Imperial_Heavy_Scout_Squad,
+					Imperial_Anti_Aircraft_Company,
+					Empire_MDU_Company,
+				</Excluded_Unit_Types>
+				<Price_Reduction_Percentage>-0.5</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- 0 means it does not stack -->
 				<!-- 1 means that it stacks with other heros combat bonuses, 9 is for planets, 2 by star destroyer tractorbeams, 3 is used by upgrades -->
@@ -961,18 +969,24 @@
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company</Excluded_Unit_Types>
-				<Time_Reduction_Percentage>0.4</Time_Reduction_Percentage>
+				<Excluded_Unit_Types>
+					DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company
+					Imperial_Anti_Infantry_Brigade,
+					Imperial_Heavy_Scout_Squad,
+					Imperial_Anti_Aircraft_Company,
+					Empire_MDU_Company,
+				</Excluded_Unit_Types>
+				<Time_Reduction_Percentage>0.75</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- <Galaxy_Wide> Yes </Galaxy_Wide> -->
 			</Reduce_Production_Time_Ability>
 			
 			<Reduce_Production_Time_Ability Name="Eli_Space_Production_Time_Reduction">
 				<Unit_Strength_Category />
-				<Applicable_Unit_Types>Tartan_Patrol_Cruiser</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Acclamator_Assault_Ship|Victory_Destroyer</Applicable_Unit_Types>
 				<!-- <Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories> -->
 				<!-- <Excluded_Unit_Types>DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company</Excluded_Unit_Types> -->
-				<Time_Reduction_Percentage>0.6</Time_Reduction_Percentage>
+				<Time_Reduction_Percentage>0.85</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- <Galaxy_Wide> Yes </Galaxy_Wide> -->
 			</Reduce_Production_Time_Ability>
