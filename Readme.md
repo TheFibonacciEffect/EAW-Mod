@@ -1,11 +1,14 @@
 This is a mod for the game Star Wars Empire at War - Force of Corruption
 
-You install it by placing it into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
+# Installation
+- Clone/download the repository.
+- Create a new directory inside your Steam copy of FoC's "Mods" folder (e.g.: "\corruption\Mods\UFoCP1.0")
+- Paste repository contents into UFoCP folder.
+- Launch the Steam copy of FoC with the launch option "MODPATH=Mods\##Folder Name##."
 
-In the startup options for steam use the following `swfoc MODPATH=Mods\Caspar` to activate the mod on startup
-
-
-# How to add a simple unit in Empire at War using XML
+# Contributing
+Just do a Pull Request or open an Issue, everything is welcome and I am glad to help within my capabilities
+## How to add a simple unit in Empire at War using XML
 Place all your stuff into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
 For adding units do the following:
    1. Download the XML Files from https://www.gamemaps.com/foc/tools
