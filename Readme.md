@@ -23,6 +23,7 @@ This is a mod for the game Star Wars Empire at War - Force of Corruption
 
 # Contributing
 Just do a Pull Request or open an Issue, everything is welcome and I am glad to help within my capabilities
+If you change any binaries in your pull request or branch, write [binaries changed] into the branch name.
 ## How to add a simple unit in Empire at War using XML
 Place all your stuff into `C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods`, if the `Mods` Folder does not exist, create it.
 For adding units do the following:
