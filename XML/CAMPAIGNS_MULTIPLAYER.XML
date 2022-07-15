@@ -673,6 +673,7 @@
 		<Starting_Forces> Empire, AlzocIII, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Eli_Vanto_Team </Starting_Forces>
         
         <!-- Abregado_Rae Space Forces -->
 		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
@@ -1419,6 +1420,7 @@
 		<Starting_Forces> Empire, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Eli_Vanto_Team </Starting_Forces>
 
 		<!-- Eriadu Space Forces -->
 		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_2 </Starting_Forces>
@@ -1959,6 +1961,7 @@
 		<Starting_Forces> Empire, Tatooine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Tatooine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Tatooine, General_Veers_Team </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Eli_Vanto_Team </Starting_Forces>
 
 
 		<!-- Underworld Starting Forces -->
@@ -2392,6 +2395,7 @@
 		<Starting_Forces> Empire, Bespin, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Bespin, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Bespin, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Eli_Vanto_Team </Starting_Forces>
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Atzerri, TIE_Defender_Squadron </Starting_Forces>
@@ -2878,6 +2882,7 @@
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Geonosis, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Geonosis, Imperial_Light_Scout_Squad </Starting_Forces>
+		<Starting_Forces> Empire, AlzocIII, Eli_Vanto_Team </Starting_Forces>
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
