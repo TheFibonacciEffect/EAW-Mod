@@ -251,7 +251,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_JEDI</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI_OUTLAW</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_JEDI</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RI_SKYWALKER.ALO</Land_Model_Name>
 		<Icon_Name>i_button_jedi_outlaw.tga</Icon_Name>
