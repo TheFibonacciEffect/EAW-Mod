@@ -14,6 +14,11 @@ This is a mod for the game Star Wars Empire at War - Force of Corruption
   - Reduces Production time for Tartan Patrol Cruisers by 75%
 - Emperor Palpetine
   - Emperor Palpetine now comes with two imperial Guards
+- Jedi Outlaw
+  - to balance this out a bit the Rebels receive the ability to train jedis
+  - based on luke skywalker
+  - [ ] Adjust Texture
+  - [ ] Make buildable in campaign, perferably only on certain planets like the cantina
 
 # Installation
 - Clone/download the repository.
