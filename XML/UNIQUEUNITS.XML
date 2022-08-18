@@ -1760,6 +1760,7 @@
 
 
 	<UniqueUnit Name="Jedi_Cruiser">
+		<!-- maybe good for jedi outlaws -->
 		<Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Broadside_Class_Cruiser Crusader_Gunship</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Star_Destroyer	Skipray_Blastboat TIE_Bomber </Encyclopedia_Vulnerable_To>
