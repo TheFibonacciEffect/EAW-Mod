@@ -932,6 +932,7 @@
 	</SpecialStructure>
 	
 	<SpecialStructure Name="Ground_Cantina_R">
+		<!--Caspar TODO Maybe make a copy of this for jedi temple -->
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_CANTINA</Text_ID>

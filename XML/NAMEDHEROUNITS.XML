@@ -933,7 +933,8 @@
 			<Reduce_Production_Price_Ability Name="Eli_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Acclamator_Assault_Ship | Victory_Destroyer | Star_Destroyer</Applicable_Unit_Types>
+				
+				<Applicable_Unit_Types>Tartan_Patrol_Cruiser,Acclamator_Assault_Ship , Victory_Destroyer , Star_Destroyer</Applicable_Unit_Types>
 				<Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories>
 				<!-- <Applicable_Unit_Types>Tartan_Patrol_Cruiser | Vehicle</Applicable_Unit_Types> -->
 				<!-- they cost more, but produce much faster -->
@@ -946,6 +947,7 @@
 				</Excluded_Unit_Types>
 				<Price_Reduction_Percentage>-0.5</Price_Reduction_Percentage>
 				<Stacking_Category>1</Stacking_Category>
+				<!-- Stacking category comments -->
 				<!-- 0 means it does not stack -->
 				<!-- 1 means that it stacks with other heros combat bonuses, 9 is for planets, 2 by star destroyer tractorbeams, 3 is used by upgrades -->
 			</Reduce_Production_Price_Ability>
@@ -983,9 +985,8 @@
 			
 			<Reduce_Production_Time_Ability Name="Eli_Space_Production_Time_Reduction">
 				<Unit_Strength_Category />
-				<Applicable_Unit_Types>Acclamator_Assault_Ship|Victory_Destroyer | Star_Destroyer</Applicable_Unit_Types>
-				<!-- <Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories> -->
-				<!-- <Excluded_Unit_Types>DarkTrooper_P1_Company, DarkTrooper_P2_Company, DarkTrooper_P3_Company, Destroyer_Droid_Company</Excluded_Unit_Types> -->
+				<Applicable_Unit_Types>Tartan_Patrol_Cruiser,Acclamator_Assault_Ship,Victory_Destroyer , Star_Destroyer</Applicable_Unit_Types>
+				<Applicable_Unit_Categories></Applicable_Unit_Categories>
 				<Time_Reduction_Percentage>0.85</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 				<!-- <Galaxy_Wide> Yes </Galaxy_Wide> -->
@@ -3065,7 +3066,7 @@
 
 
 <!-- 	###########	QUESTIONABLE ENTRIES ################# -->
-
+<!-- Can confirm, this is wierd. There is a seperate file for luke -->
 
 	
 	
