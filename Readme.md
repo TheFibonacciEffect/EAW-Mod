@@ -12,6 +12,7 @@ This is a mod for the game Star Wars Empire at War - Force of Corruption
   - Gives a slight movement speed bonus in combat
   - Reduces Production Time for Vehicles by half
   - Reduces Production time for Tartan Patrol Cruisers by 75%
+  - Also appears in Campaign Equal footing in Era 3
 - Emperor Palpetine
   - Emperor Palpetine now comes with two imperial Guards
 - Jedi Outlaw
